@@ -1,5 +1,5 @@
 // js/category.js
-const API = "http://localhost:3001/api/v1/clean/admin";
+const API = "https://ttce.onrender.com/api/v1/clean/admin";
 
 function getToken() {
   const match = document.cookie.match(new RegExp("(^| )token=([^;]+)"));

@@ -11,7 +11,7 @@ async function loadCartDetails() {
   }
 
   try {
-    const res = await axios.post("http://localhost:3001/api/v1/clean/admin/getAllProducts", {});
+    const res = await axios.post("https://ttce.onrender.com/api/v1/clean/admin/getAllProducts", {});
     const allProducts = res.data;
     let html = "", total = 0;
 
@@ -92,7 +92,7 @@ document.getElementById("guestOrderForm").addEventListener("submit", async (e) =
   }));
 
   try {
-    const res = await axios.post("http://localhost:3001/api/v1/clean/admin/guestOrder", {
+    const res = await axios.post("https://ttce.onrender.com/api/v1/clean/admin/guestOrder", {
       name, email, phone, address, products
     });
 

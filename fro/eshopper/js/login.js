@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
   const password = document.getElementById("password").value.trim();
 
   try {
-    const response = await axios.post("http://localhost:3001/api/v1/clean/admin/login", {
+    const response = await axios.post("https://ttce.onrender.com/api/v1/clean/admin/login", {
       email,
       password
     });

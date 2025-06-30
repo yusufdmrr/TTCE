@@ -13,7 +13,7 @@ document.getElementById("registerForm").addEventListener("submit", async (e) => 
   }
 
   try {
-    const response = await axios.post("http://localhost:3001/api/v1/clean/admin/register", {
+    const response = await axios.post("https://ttce.onrender.com/api/v1/clean/admin/register", {
       name,
       surname,
       email,

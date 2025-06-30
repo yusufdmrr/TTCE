@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3001/api/v1/clean/admin";
+const API_BASE = "https://ttce.onrender.com/api/v1/clean/admin";
 
 // JWT'den token alma
 function getJWTFromCookie() {

@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3001/api/v1/clean/admin";
+const API_BASE = "https://ttce.onrender.com/api/v1/clean/admin";
 const token = document.cookie.split("token=")[1];
 const headers = { headers: { Authorization: `Bearer ${token}` } };
 
