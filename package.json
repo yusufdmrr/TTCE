@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "dev:development": "cross-env NODE_ENV=development nodemon index.js",
     "dev:production": "cross-env NODE_ENV=production nodemon index.js",
     "format:check": "prettier --check .",
