@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hesabım - E-Market</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #e9f0ff;
+    }
+    .container {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      margin-top: 40px;
+      padding: 30px;
+    }
+    h4, h5 {
+      font-weight: bold;
+    }
+    .btn-outline-dark:hover {
+      background-color: #343a40;
+      color: white;
+    }
+    .order-table td {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h4>👤 Hesap Bilgileri</h4>
+      <a href="index.html" class="btn btn-sm btn-outline-primary"><i class="fas fa-home"></i> Anasayfa</a>
+    </div>
+
+    <!-- Profil Formu -->
+    <form id="profileForm">
+      <div class="row">
+        <div class="form-group col-md-6">
+          <label for="name">Ad</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="surname">Soyad</label>
+          <input type="text" class="form-control" id="surname" required />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">E-posta</label>
+          <input type="email" class="form-control" id="email" disabled />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="phone">Telefon</label>
+          <input type="text" class="form-control" id="phone" />
+        </div>
+        <div class="form-group col-md-12">
+          <label for="address">Adres</label>
+          <input type="text" class="form-control" id="address" />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-outline-dark btn-sm float-right mt-2">
+        <i class="fas fa-save"></i> Güncelle
+      </button>
+    </form>
+
+    <hr class="my-5">
+
+    <!-- Şifre Değiştir -->
+    <form id="passwordForm">
+      <h5 class="mb-3 text-primary">🔐 Şifre Değiştir</h5>
+      <div class="row">
+        <div class="form-group col-md-6">
+          <label for="oldPassword">Eski Şifre</label>
+          <input type="password" class="form-control" id="oldPassword" required />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="newPassword">Yeni Şifre</label>
+          <input type="password" class="form-control" id="newPassword" required />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-outline-dark btn-sm float-right mt-2">
+        <i class="fas fa-key"></i> Güncelle
+      </button>
+    </form>
+
+    <hr class="my-5">
+
+    <!-- Siparişlerim -->
+    <div class="mt-5">
+      <h5 class="mb-3 text-primary">📦 Siparişlerim</h5>
+      <table class="table table-bordered table-hover order-table">
+        <thead class="thead-light">
+          <tr>
+            <th>#</th>
+            <th>Sipariş ID</th>
+            <th>İşlem</th>
+          </tr>
+        </thead>
+        <tbody id="orderTableBody">
+          <tr><td colspan="3" class="text-center text-muted">Yükleniyor...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Sipariş Detay Modal -->
+  <div class="modal fade" id="orderDetailModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">🧾 Sipariş Detayı</h5>
+          <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group" id="orderDetailList"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/account.js"></script>
+</body>
+</html>

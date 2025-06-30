@@ -1,0 +1,88 @@
+/* Genel stil ayarları */
+* {
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #212529;
+  color: white;
+  flex-shrink: 0;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+.sidebar h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ffc107;
+}
+.sidebar a {
+  display: block;
+  padding: 12px 20px;
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.sidebar a:hover,
+.sidebar a.active {
+  background-color: #343a40;
+  color: #ffc107;
+}
+
+/* İçerik Alanı */
+.content-wrapper {
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Tablolar */
+.table th {
+  background-color: #343a40 !important;
+  color: white;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* Butonlar */
+.btn {
+  border-radius: 4px;
+}
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+.btn-success:hover {
+  background-color: #157347;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ddd;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-top: 1px solid #495057;
+}
+footer i {
+  color: #ffc107;
+}

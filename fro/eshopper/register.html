@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kayıt Ol - E-Ticaret</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <style>
+    body {
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .register-box {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    .form-control:focus {
+      border-color: #00b8d4;
+      box-shadow: 0 0 0 0.2rem rgba(0, 184, 212, 0.25);
+    }
+    .form-label i {
+      margin-right: 6px;
+      color: #00b8d4;
+    }
+    .title-icon {
+      font-size: 2rem;
+      color: #00b8d4;
+    }
+    .btn-primary {
+      background-color: #00b8d4;
+      border-color: #00b8d4;
+    }
+    .btn-primary:hover {
+      background-color: #0097a7;
+      border-color: #0097a7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 register-box">
+        <div class="text-center mb-4">
+          <div class="title-icon"><i class="fas fa-user-plus"></i></div>
+          <h3>Kayıt Ol</h3>
+        </div>
+
+        <form id="registerForm">
+          <div class="mb-3">
+            <label for="name" class="form-label"><i class="fas fa-user"></i>Adınız</label>
+            <input type="text" class="form-control" id="name" placeholder="Adınızı giriniz" required />
+          </div>
+          <div class="mb-3">
+            <label for="surname" class="form-label"><i class="fas fa-user-tag"></i>Soyadınız</label>
+            <input type="text" class="form-control" id="surname" placeholder="Soyadınızı giriniz" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label"><i class="fas fa-envelope"></i>E-Posta</label>
+            <input type="email" class="form-control" id="email" placeholder="ornek@mail.com" required />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label"><i class="fas fa-lock"></i>Şifre</label>
+            <input type="password" class="form-control" id="password" placeholder="Şifrenizi belirleyin" required />
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+          </div>
+        </form>
+
+        <div class="text-center mt-3">
+          <small>Zaten hesabınız var mı? <a href="login.html" class="text-decoration-none">Giriş Yap</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>

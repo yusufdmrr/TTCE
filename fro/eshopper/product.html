@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ürün Yönetimi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/admin-style.css"> <!-- ✅ Ortak stil dosyası -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h4>🛠️ Admin Panel</h4>
+    <a href="admin.html"><i class="fas fa-home"></i> Anasayfa</a>
+    <a href="product.html" class="active"><i class="fas fa-cubes"></i> Ürün İşlemleri</a>
+    <a href="category.html"><i class="fas fa-tags"></i> Kategori İşlemleri</a>
+    <a href="admin-orders.html"><i class="fas fa-box"></i> Sipariş Yönetimi</a>
+  </div>
+
+  <!-- İçerik -->
+  <div class="content-wrapper">
+    <div class="main">
+      <h2 class="mb-4 text-success">🛒 Ürün Yönetimi</h2>
+
+      <form id="productForm" enctype="multipart/form-data" class="row g-3 mb-4">
+        <div class="col-md-4">
+          <label class="form-label">Ürün Adı</label>
+          <input type="text" class="form-control" name="name" required />
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Fiyat (₺)</label>
+          <input type="number" class="form-control" name="price" step="0.01" required />
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Stok</label>
+          <input type="number" class="form-control" name="stock" required />
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Kategori</label>
+          <select name="categoryId" class="form-select" required id="categorySelect">
+            <option value="">Kategori Seç</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Ürün Görseli</label>
+          <input type="file" name="image" class="form-control" accept="image/*" required />
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Açıklama</label>
+          <textarea class="form-control" name="description" rows="2"></textarea>
+        </div>
+        <div class="col-md-12">
+          <button class="btn btn-success w-100"><i class="fas fa-plus-circle"></i> Ürünü Ekle</button>
+        </div>
+      </form>
+
+      <table class="table table-bordered table-striped align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Ad</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+            <th>Kategori</th>
+            <th>İşlem</th>
+          </tr>
+        </thead>
+        <tbody id="productList">
+          <tr>
+            <td colspan="6" class="text-center">Yükleniyor...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div>&copy; 2025 <strong>E-Ticaret Yönetim Paneli</strong> | <i class="fas fa-heart"></i> ile hazırlandı</div>
+    </footer>
+  </div>
+
+  <!-- Güncelleme Modalı -->
+  <div class="modal fade" id="updateModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <form id="updateForm" class="p-3" enctype="multipart/form-data">
+          <input type="hidden" id="updateId" name="productId" />
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Ürün Adı</label>
+              <input type="text" class="form-control" id="updateName" name="name" required />
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Fiyat</label>
+              <input type="number" class="form-control" id="updatePrice" name="price" step="0.01" required />
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Stok</label>
+              <input type="number" class="form-control" id="updateStock" name="stock" required />
+            </div>
+            <div class="col-md-12">
+              <label class="form-label">Açıklama</label>
+              <textarea class="form-control" id="updateDescription" name="description" rows="2"></textarea>
+            </div>
+            <div class="col-md-12">
+              <label class="form-label">Yeni Görsel (İsteğe Bağlı)</label>
+              <input type="file" class="form-control" id="updateImage" name="image" accept="image/*" />
+            </div>
+            <div class="col-md-12 text-end">
+              <button class="btn btn-primary"><i class="fas fa-save"></i> Güncelle</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/product.js"></script>
+</body>
+</html>

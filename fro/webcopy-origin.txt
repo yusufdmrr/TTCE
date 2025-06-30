@@ -1,0 +1,296 @@
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\css\all.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-brands-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-brands-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-brands-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-regular-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-regular-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-regular-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-solid-900.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-solid-900-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-solid-900.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\themewagon.github.io\ajax\libs\font-awesome\5.10.0\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://code.jquery.com/jquery-3.4.1.min.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\jquery-3.4.1.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap
+File Name: C:\Downloaded Web Sites\themewagon.github.io\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLBT5V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLBT5V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLCz7V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDD4V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLDD4V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDz8V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLDz8V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLEj6V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLEj6V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLFj_V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLFj_V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9V1s.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiByp8kv8JHgFVrLGT9V1s.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrFJA.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiEyp8kv8JHgFVrFJA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v23/pxiGyp8kv8JHgFVrLPTedw.ttf
+File Name: C:\Downloaded Web Sites\themewagon.github.io\s\poppins\v23\pxiGyp8kv8JHgFVrLPTedw.ttf
+Content Type: font/ttf
+
+Uri: https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\bootstrap\4.4.1\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://themewagon.github.io/eshopper/
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\index.htm
+Content Type: text/html
+
+Uri: https://themewagon.github.io/eshopper/cart.html
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\cart.html
+Content Type: text/html
+
+Uri: https://themewagon.github.io/eshopper/checkout.html
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\checkout.html
+Content Type: text/html
+
+Uri: https://themewagon.github.io/eshopper/contact.html
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\contact.html
+Content Type: text/html
+
+Uri: https://themewagon.github.io/eshopper/css/style.css
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\css\style.css
+Content Type: text/css
+
+Uri: https://themewagon.github.io/eshopper/detail.html
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\detail.html
+Content Type: text/html
+
+Uri: https://themewagon.github.io/eshopper/img/carousel-1.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\carousel-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/carousel-2.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\carousel-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/cat-1.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\cat-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/cat-2.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\cat-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/cat-3.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\cat-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/cat-4.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\cat-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/cat-5.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\cat-5.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/cat-6.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\cat-6.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/offer-1.png
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\offer-1.png
+Content Type: image/png
+
+Uri: https://themewagon.github.io/eshopper/img/offer-2.png
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\offer-2.png
+Content Type: image/png
+
+Uri: https://themewagon.github.io/eshopper/img/payments.png
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\payments.png
+Content Type: image/png
+
+Uri: https://themewagon.github.io/eshopper/img/product-1.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-2.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-3.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-4.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-5.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-5.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-6.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-6.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-7.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-7.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/product-8.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\product-8.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/user.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\user.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-1.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-1.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-2.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-2.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-3.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-3.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-4.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-4.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-5.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-5.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-6.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-6.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-7.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-7.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/img/vendor-8.jpg
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\img\vendor-8.jpg
+Content Type: image/jpeg
+
+Uri: https://themewagon.github.io/eshopper/index.html
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\index.html
+Content Type: text/html
+
+Uri: https://themewagon.github.io/eshopper/js/main.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\js\main.js
+Content Type: application/javascript
+
+Uri: https://themewagon.github.io/eshopper/lib/easing/easing.min.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\lib\easing\easing.min.js
+Content Type: application/javascript
+
+Uri: https://themewagon.github.io/eshopper/lib/owlcarousel/assets/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\lib\owlcarousel\assets\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://themewagon.github.io/eshopper/lib/owlcarousel/assets/owl.video.play.png
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\lib\owlcarousel\assets\owl.video.play.png
+Content Type: image/png
+
+Uri: https://themewagon.github.io/eshopper/lib/owlcarousel/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\lib\owlcarousel\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://themewagon.github.io/eshopper/mail/contact.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\mail\contact.js
+Content Type: application/javascript
+
+Uri: https://themewagon.github.io/eshopper/mail/jqBootstrapValidation.min.js
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\mail\jqBootstrapValidation.min.js
+Content Type: application/javascript
+
+Uri: https://themewagon.github.io/eshopper/shop.html
+File Name: C:\Downloaded Web Sites\themewagon.github.io\eshopper\shop.html
+Content Type: text/html
+
